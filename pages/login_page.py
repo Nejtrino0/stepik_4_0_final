@@ -1,8 +1,6 @@
 from .base_page import BasePage
 from .locators import LoginPageLocators
-import time
-from random import randint
-from selenium.webdriver.common.by import By
+
 
 
 class LoginPage(BasePage):

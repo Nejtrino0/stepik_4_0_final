@@ -1,7 +1,6 @@
 from .pages.product_page import ProductPage
 from .pages.basket_page import BasePage
 from .pages.login_page import LoginPage
-from time import sleep
 import pytest
 from .pages.locators import ProductPageLocators
 from .pages.basket_page import BasketPage

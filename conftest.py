@@ -20,8 +20,6 @@ def browser(request):
     elif browser_name == "chrome":
         print("\nstart chrome browser for test..")
         options = Options()
-        options.add_argument('headless')
-        options.add_argument('window-size=1920x935')
         options.add_experimental_option('prefs', {'intl.accept_languages': language})
         browser = webdriver.Chrome(options=options)
     elif browser_name == "firefox":
