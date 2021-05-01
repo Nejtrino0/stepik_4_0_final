@@ -1,3 +1,4 @@
 .idea
 __pycache__
 selenium_s
+.pytest_cache
